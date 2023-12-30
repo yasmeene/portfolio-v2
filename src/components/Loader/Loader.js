@@ -1,9 +1,11 @@
+import React, { useContext } from 'react';
+import { ThemeContext } from '../../contexts/theme';
 import './Loader.scss'
-import React from 'react';
 
 const Loader = () => {
+    const [{ themeName }] = useContext(ThemeContext);
     return (
-        <div class="loadder-wrapper">
+        <div className={`loader-wrapper ${themeName}`}>
             <div class="content">
                 <div class="planet">
                     <div class="ring"></div>
