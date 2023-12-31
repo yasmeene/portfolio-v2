@@ -1,58 +1,16 @@
-## Instructions
+# Personal Portfolio
 
-### Setup
+## Description
 
-```shell
-git clone https://github.com/rajshekhar26/cleanfolio
-cd cleanfolio
-```
+This is my portfolio, which displays an overview of myself including my work experience, some projects I have built, and my contact information.
 
-If you use [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/Schniz/fnm), execute:
+## Roadmap
 
-```shell
-nvm install
-nvm use
-```
+- [ ] Center loader
+  - [ ] add shrinking animation
+- [ ] Fix dark/light mode feature
+- [ ] Add content
 
-Or:
+## Acknowledgments
 
-```shell
-fnm install
-fnm use
-```
-
-To install and launch the project, run these commands:
-
-```shell
-yarn
-yarn start
-```
-
-### How to Use
-
-- Open the `public/index.html` file and replace:
-
-`<title>John Smith</title>` with `<title>Your Name</title>`.
-
-- Open the `src/portfolio.js` file and make the necessary changes.
-
-### Deployment
-
-- In the `package.json` file, update:
-
-`"homepage": "https://rajshekhar26.github.io/cleanfolio"`
-
-to `"homepage": "https://yourusername.github.io"`.
-
-- Push the changes to your repository.
-
-- To build and deploy, run the following commands:
-
-```shell
-yarn build
-yarn deploy
-```
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+* Raj Shekhar for Design
