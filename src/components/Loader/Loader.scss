@@ -14,7 +14,7 @@
    display: flex;
    align-items: center;
    justify-content: center;
-   background-color: $m-01;
+   background-color: var(--clr-bg);
 }
 
 .loader-wrapper {
@@ -24,17 +24,11 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   z-index: 9999;
    animation: shrink 1s ease-out forwards;
-   &.light {
-      background-color: var(--clr-bg);
-      // Additional styles for the light theme
-    }
-  
-    &.dark {
+   &.dark {
       background-color: var(--clr-bg-alt);
       // Additional styles for the dark theme
-    }
+   }
 }
 
 @keyframes shrink {

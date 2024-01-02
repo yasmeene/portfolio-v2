@@ -21,7 +21,7 @@ const App = () => {
     // Simulate an asynchronous action (e.g., fetching data)
     const fetchData = async () => {
       // Introduce a delay of at least 5 seconds (5000 milliseconds)
-      await new Promise(resolve => setTimeout(resolve, 5000));
+      await new Promise(resolve => setTimeout(resolve, 3000));
 
       // Your data fetching logic goes here
 
@@ -33,7 +33,7 @@ const App = () => {
   }, []);
 
   return (
-    <div id='top' className={`${themeName} app`}>
+    <div id='top' className={`app ${themeName}`}>
 
       {loading && <Loader />}
 
