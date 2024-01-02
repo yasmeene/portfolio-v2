@@ -6,9 +6,10 @@ This is my portfolio, which displays an overview of myself including my work exp
 
 ## Roadmap
 
-- [ ] Center loader
+- [x] Center loader
+  - [ ] make planet in loader a sphere
   - [ ] add shrinking animation
-- [ ] Fix dark/light mode feature
+- [x] Fix dark/light mode feature
 - [ ] Add content
 
 ## Acknowledgments
