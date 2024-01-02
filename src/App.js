@@ -21,7 +21,7 @@ const App = () => {
     // Simulate an asynchronous action (e.g., fetching data)
     const fetchData = async () => {
       // Introduce a delay of at least 5 seconds (5000 milliseconds)
-      await new Promise(resolve => setTimeout(resolve, 3000));
+      await new Promise(resolve => setTimeout(resolve, 10000));
 
       // Your data fetching logic goes here
 
