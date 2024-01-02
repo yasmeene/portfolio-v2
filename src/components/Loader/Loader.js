@@ -5,7 +5,7 @@ import './Loader.scss'
 const Loader = () => {
     const [{ themeName }] = useContext(ThemeContext);
     return (
-        <div className={`loader-wrapper ${themeName}`}>
+        <div className={`loader-wrapper ${themeName === 'dark' ? 'dark' : ''}`}>
             <div class="content">
                 <div class="planet">
                     <div class="ring"></div>

@@ -9,26 +9,21 @@
  @import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
  
  body {
-   margin: 0;
-   padding: 0;
-   display: flex;
+   display: auto;
    align-items: center;
-   justify-content: center;
-   background-color: var(--clr-bg);
+   width: 100%;
 }
 
 .loader-wrapper {
    position: fixed;
    top: 0;
    left: 0;
+   right: 0; 
+   bottom: 0;
    display: flex;
    justify-content: center;
    align-items: center;
-   animation: shrink 1s ease-out forwards;
-   &.dark {
-      background-color: var(--clr-bg-alt);
-      // Additional styles for the dark theme
-   }
+   /*animation: shrink 1s ease-out forwards;*/
 }
 
 @keyframes shrink {
@@ -39,7 +34,7 @@
    100% {
      transform: scale(0); /* Shrink to zero size */
      opacity: 0;
-     display: none; /* Optionally hide the loader after shrinking */
+     display: none;
    }
  }
 
