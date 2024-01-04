@@ -4,11 +4,11 @@ import React from 'react';
 const Loader = () => {
     return (
         <div className="loader-wrapper">
-            <div class="content">
+            <div className="content">
                 <div className="planet">
-                    <div class="ring"></div>
-                        <div class="cover-ring"></div>
-                    <div class="spots">
+                    <div className="ring"></div>
+                        <div className="cover-ring"></div>
+                    <div className="spots">
                         <span></span>
                         <span></span>
                         <span></span>
